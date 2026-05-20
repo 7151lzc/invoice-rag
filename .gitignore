@@ -1,0 +1,45 @@
+# ===== 敏感数据（绝对不上传）=====
+.env
+*.db
+invoices.db
+Neo4j.txt
+
+# ===== 运行时生成的数据 =====
+chroma_db/
+data/invoices/
+output/
+test_images/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+
+# ===== PaddleOCR / HuggingFace 模型缓存 =====
+~/.paddleocr/
+inference/
+.cache/
+
+# ===== Gradio 缓存 =====
+.gradio/
+gradio_tmp/
+
+# ===== IDE =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 临时文件 =====
+tmp_*.png
+*_pdf_page_*.png
+*_word_img_*.png
+*_excel_sheet_*.png
